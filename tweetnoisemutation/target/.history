@@ -1,0 +1,4 @@
+exit
+play install oauth-{version}
+exit
+run

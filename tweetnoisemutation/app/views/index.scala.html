@@ -1,0 +1,30 @@
+@(tweets: List[String], term: String)
+
+@import helper._
+
+@main("Search Tweets (" + term + ")") {
+    
+	<h1>Twitter Search by query (Try something like boston, delhi, ilovepepsiiplbecause ...)</h1>
+	
+	<h3> Enter query term and hit search </h3>
+	<hr></hr>
+	<br/>	
+	@form(routes.Application.search()){
+		<input type="text" name="query">
+		<input type="submit" value="Search">
+	}
+	
+	<hr></hr>
+	<br/>	
+	<h2> @term </h2>
+	<ol>
+		@for(tweet <- tweets){
+			<li>
+				@tweet
+	
+			</li>
+		}
+	</ol>
+	
+    
+}

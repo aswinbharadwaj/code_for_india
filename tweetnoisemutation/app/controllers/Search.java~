@@ -1,0 +1,33 @@
+
+package controllers;
+
+import twitter4j.*;
+
+import java.util.*;
+
+public class Search {
+    
+    public static void search(String queryTerm) {
+	List<String> searchResult = new ArrayList<String>();
+	Status tweet;
+        Twitter twitter = new TwitterFactory().getInstance();
+        try {
+            Query query = new Query(queryTerm);
+            QueryResult result;
+            for(int i = 0; i < 20 && (result.nextQuery() != null); ++i)
+                result = twitter.search(query);
+                List<Status> tweets = result.getTweets();
+		int j = 0;
+                for (int j = 0; j < 10 && j < tweets.size(); ++j) {
+			tweet = tweets.get(j);
+                    searchResult.add("@" + tweet.getUser().getScreenName() + " - " + tweet.getText()+ " - " + tweet.getCreatedAt().toString());
+                }
+		query = result.nextQuery();
+            } 
+        } catch (TwitterException te) {
+            te.printStackTrace();
+            System.out.println("Failed to search tweets: " + te.getMessage());
+        }
+	return searchResult;
+    }
+}
