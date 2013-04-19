@@ -9,15 +9,34 @@ With the support and in collaboration with:
 
 Temporary objectives:
 
-News portal ( Tech Meme Clone )
--> Creating an open repository
--> retrieve unpartial information
--> aggregate it and provide it online
--> Develop codebase by discussion and contribution
+News portal ( Tech Meme Clone )<br/>
+-> Creating an open repository<br/>
+-> retrieve unpartial information<br/>
+-> aggregate it and provide it online<br/>
+-> Develop codebase by discussion and contribution<br/>
 
-Tweet Noise Mutation
--> Reduce the bad noise by Focusing on improving good noise by leaps and bounds
--> Rationality check on tweets
--> Concentrate on good news channels
--> Curtail Secular/ Caste-centered / extremist ideas
--> Involve more people who are better involved in such activities but not technically powered
+Tweet Noise Mutation<br/>
+-> Reduce the bad noise by Focusing on improving good noise by leaps and bounds<br/>
+-> Rationality check on tweets<br/>
+-> Concentrate on good news channels<br/>
+-> Curtail Secular/ Caste-centered / extremist ideas<br/>
+-> Involve more people who are better involved in such activities but not technically powered<br/>
+
+
+
+About the Technology Stack:
+
+<ul>
+<li> Play! 2.x Framework for Java Devs </li>
+<li> MySql/ Postgres (Depends on the Hosting) </li>
+<li> Twitter API for Java  http://twitter4j.org/en/index.html </li>
+<li> Machine Learning jubat.us </li>
+<li> jQuery/CSS3/HTML5 </li>
+</ul>
+
+<strong>Currently a simple RSS reader and Tweet Search have been developed using Play! 2.x</strong>
+
+Contact:
+<a href="http://www.facebook.com/aswinbharadwaj">Aswin Bharadwaj</a>
+gtalk:aswin.bharadwaj@gmail.com
+skype:aswinbharadwaj
