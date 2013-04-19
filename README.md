@@ -27,11 +27,12 @@ Tweet Noise Mutation<br/>
 About the Technology Stack:
 
 <ul>
-<li> Play! 2.x Framework for Java Devs </li>
+<li> <a href="http://www.playframework.com/documentation/2.1.1/JavaHome">Play! 2.x Framework for Java Devs </a></li>
 <li> MySql/ Postgres (Depends on the Hosting) </li>
-<li> Twitter API for Java  http://twitter4j.org/en/index.html </li>
-<li> Machine Learning jubat.us </li>
+<li> <a href="http://twitter4j.org/en/index.html">Twitter API for Java</a> </li>
+<li> <a href="http://jubat.us/en/">Machine Learning </a></li>
 <li> jQuery/CSS3/HTML5 </li>
+<li> <a href="http://sourceforge.net/projects/javarandom/">Randomization ( true randomness )</a></li>
 </ul>
 
 <strong>Currently a simple RSS reader and Tweet Search have been developed using Play! 2.x</strong>
